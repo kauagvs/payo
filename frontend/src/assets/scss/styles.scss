@@ -1,0 +1,166 @@
+@import "./variables";
+@import "./themes";
+
+//Guide Scss
+@import "./guides/guide-fonts";
+@import "./guides/guide-align";
+@import "./guides/guide-animations";
+@import "./guides/guide-buttons";
+@import "./guides/guide-colors";
+@import "./guides/guide-form";
+@import "./guides/guide-grid";
+@import "./guides/guide-helpers";
+@import "./guides/guide-texts";
+
+// Components Scss
+@import "./components/navbar";
+@import "./components/sidebar";
+
+// Pages Scss
+@import "./pages/dashboard";
+@import "./pages/login";
+
+.icon-style {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  border: 1px solid;
+  font-size: 0.9rem;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 100%;
+
+  main {
+    display: flex;
+    height: 100%;
+
+    .pages {
+      overflow: auto;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 100;
+      opacity: 0.7;
+      display: none;
+
+      &.show {
+        display: block;
+
+        @media (min-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  &.toggeled-sidebar {
+    main {
+      .overlay {
+        display: block;
+
+        @media (min-width: 768px) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.toast {
+  opacity: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+a {
+  color: #4d4e53;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: 1px dashed;
+  outline-color: #a5aab6;
+  outline-offset: 2px;
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+button:focus {
+  outline: 1px dashed;
+  outline-color: #a5aab6;
+  outline-offset: -5px;
+  text-decoration: none;
+}
+
+* {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+i,
+em {
+  font-style: italic;
+}
+
+u {
+  text-decoration: underline;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+address {
+  font-style: normal;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}

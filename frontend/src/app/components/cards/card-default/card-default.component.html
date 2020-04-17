@@ -1,0 +1,19 @@
+<div class="guide-row">
+  <div class="col-md-6 col-lg-4 mb-4" *ngFor="let item of dataCard">
+    <div class="card border-0 rounded-0">
+      <div class="card-body">
+        <div class="card-innerBody d-flex align-items-center">
+          <div class="card-icon text-light">
+            <i class="" [ngClass]="item.icon" aria-hidden="true"></i>
+          </div>
+          <div class="ml-auto">
+            <p class="card-label text-right text-muted">
+              {{ item.name }}
+            </p>
+            <h4 class="card-text text-right ">{{ item.value }}</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

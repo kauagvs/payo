@@ -1,0 +1,104 @@
+.button {
+  border: 1px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 20px;
+  min-height: 40px;
+  overflow: hidden;
+  padding: 9px 15px;
+  position: relative;
+  transition: ease-in-out 0.3s;
+  vertical-align: middle;
+  z-index: 10;
+  background: $primary-color;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.button:focus {
+  outline-offset: -5px;
+  outline-style: dotted;
+  outline-width: 1px;
+  transition: none;
+}
+.button::before {
+  background: $primary-color-before;
+  border-radius: 5px;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.3s;
+  width: 100%;
+  z-index: -10;
+}
+.button:hover,
+.button:focus {
+  color: #fff;
+}
+.button:hover::before,
+.button:focus::before {
+  opacity: 1;
+}
+.button--secondary {
+  background: $secondary-color;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+.button--secondary::before {
+  background: $secondary-color-before;
+  border-radius: 5px;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: 0.3s;
+  width: 100%;
+  z-index: -10;
+}
+.button--secondary:hover,
+.button--secondary:focus {
+  color: #fff;
+}
+.button--secondary:hover::before,
+.button--secondary:focus::before {
+  opacity: 1;
+}
+
+.button span,
+.button i {
+  display: inline-block;
+  vertical-align: middle;
+}
+.button i {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.button i + span,
+.button span + i {
+  margin-left: 10px;
+}
+.button--icon-left i {
+  margin: 0 10px 0 0;
+}
+.button--icon-right i {
+  margin: 0 0 0 10px;
+}
+
+.button-group {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}

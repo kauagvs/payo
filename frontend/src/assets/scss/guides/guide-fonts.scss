@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat/Montserrat-Light.woff2") format("woff2"),
+    url("/assets/fonts/montserrat/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat/Montserrat-Regular.woff2") format("woff2"),
+    url("/assets/fonts/montserrat/Montserrat-Regular.woff") format("woff"),
+    url("/assets/fonts/montserrat/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat/Montserrat-Medium.woff2") format("woff2"),
+    url("/assets/fonts/montserrat/Montserrat-Medium.woff") format("woff"),
+    url("/assets/fonts/montserrat/Montserrat-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/montserrat/Montserrat-SemiBold.woff") format("woff"),
+    url("/assets/fonts/montserrat/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/montserrat/Montserrat-Bold.woff2") format("woff2"),
+    url("/assets/fonts/montserrat/Montserrat-Bold.woff") format("woff"),
+    url("/assets/fonts/montserrat/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/fonts/open-sans/OpenSans-Light.eot");
+  src: url("/assets/fonts/open-sans/OpenSans-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/open-sans/OpenSans-Light.otf") format("otf"),
+    url("/assets/fonts/open-sans/OpenSans-Light.svg#OpenSans-Light")
+      format("svg"),
+    url("/assets/fonts/open-sans/OpenSans-Light.ttf") format("truetype"),
+    url("/assets/fonts/open-sans/OpenSans-Light.woff") format("woff"),
+    url("/assets/fonts/open-sans/OpenSans-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/fonts/open-sans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/fonts/open-sans/OpenSans-Semibold.eot");
+  src: url("/assets/fonts/open-sans/OpenSans-Semibold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/open-sans/OpenSans-Semibold.otf") format("otf"),
+    url("/assets/fonts/open-sans/OpenSans-Semibold.svg#OpenSans-Semibold")
+      format("svg"),
+    url("/assets/fonts/open-sans/OpenSans-Semibold.ttf") format("truetype"),
+    url("/assets/fonts/open-sans/OpenSans-Semibold.woff") format("woff"),
+    url("/assets/fonts/open-sans/OpenSans-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/assets/fonts/open-sans/OpenSans-Bold.eot");
+  src: url("/assets/fonts/open-sans/OpenSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/open-sans/OpenSans-Bold.otf") format("otf"),
+    url("/assets/fonts/open-sans/OpenSans-Bold.svg#OpenSans-Bold") format("svg"),
+    url("/assets/fonts/open-sans/OpenSans-Bold.ttf") format("truetype"),
+    url("/assets/fonts/open-sans/OpenSans-Bold.woff") format("woff"),
+    url("/assets/fonts/open-sans/OpenSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}

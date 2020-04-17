@@ -1,0 +1,114 @@
+.guide-uppercase {
+  text-transform: uppercase;
+}
+
+.guide-title-primary {
+  font-size: 50px;
+}
+
+.guide-highlights-primary {
+  font-size: 40px;
+}
+
+.guide-title-secondary {
+  font-size: 34px;
+}
+
+.guide-highlights-secondary {
+  font-size: 30px;
+}
+
+.guide-subtitle-primary {
+  font-size: 24px;
+}
+
+.guide-subtitle-secondary {
+  font-size: 18px;
+}
+
+.guide-description {
+  font-size: 16px;
+}
+
+.guide-text-small {
+  font-size: 14px;
+}
+
+.guide-text-info {
+  font-size: 12px;
+}
+
+[class^="guide-"].light,
+[class*="guide-"] .light {
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+[class^="guide-"].regular,
+[class*="guide-"] .regular {
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+[class^="guide-"].medium,
+[class*="guide-"] .medium {
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+[class^="guide-"].semibold,
+[class*="guide-"] .semibold {
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+[class^="guide-"].bold,
+[class*="guide-"] .bold {
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+.guide-title-primary,
+.guide-title-secondary,
+.guide-subtitle-primary,
+.guide-subtitle-secondary,
+.guide-description,
+.guide-text-small,
+.guide-text-info {
+  transition: all ease 0.2s;
+}
+
+@media screen and (max-width: 1023px) {
+  .guide-title-primary {
+    font-size: 36px;
+  }
+
+  .guide-highlights-primary {
+    font-size: 30px;
+  }
+
+  .guide-title-secondary {
+    font-size: 26px;
+  }
+
+  .guide-highlights-secondary {
+    font-size: 24px;
+  }
+
+  .guide-subtitle-primary {
+    font-size: 20px;
+  }
+
+  .guide-subtitle-secondary {
+    font-size: 16px;
+  }
+
+  .guide-description {
+    font-size: 14px;
+  }
+
+  .guide-text-small,
+  .guide-text-info {
+    font-size: 12px;
+  }
+}
