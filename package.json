@@ -1,0 +1,15 @@
+{
+  "name": "payo",
+  "version": "0.0.0",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && yarn dev:server",
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && yarn",
+    "install": "concurrently \"npm run install-backend\" \"npm run install-frontend\"",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
